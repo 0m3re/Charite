@@ -1,0 +1,22 @@
+{
+  "name": "Charite",
+  "main": "app/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@c4dt/nativescript-websockets": "^1.5.5",
+    "@nativescript/core": "~8.6.0",
+    "@nativescript/theme": "~3.0.2",
+    "svelte-native": "~1.0.9"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.6.2",
+    "@nativescript/types": "~8.6.1",
+    "@nativescript/webpack": "~5.0.18",
+    "svelte": "~4.2.2",
+    "svelte-loader": "^3.1.9",
+    "svelte-native-preprocessor": "^1.0.0",
+    "svelte-preprocess": "^5.0.4",
+    "typescript": "~5.2.2"
+  }
+}
