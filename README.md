@@ -14,7 +14,11 @@ To get started, ensure you have the following installed:
 3. Install Node dependencies: `npm install`
 
 ### Android Studio
-1. Install Android Studio and ensure the Virtual Device Manager is included.
+1. Install Android Studio, ensuring the Virtual Device Manager is included.
 2. Set the `ANDROID_HOME` environment variable.
 3. Navigate to the SDK Manager and install the appropriate SDK (14.0) and SDK Tools (33.*).
 4. Create a virtual device using the Virtual Device Manager, selecting the correct SDK.
+
+## Usage
+- To start the server, use `python main.py`. Ensure you are in the server folder or specify the path in the command.
+- To start the NS app, use `ns run`. You must be in the svelte_app folder. Note: being in a subfolder will not work.
